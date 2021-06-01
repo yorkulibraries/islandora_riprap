@@ -37,10 +37,10 @@ class IslandoraRiprapUtils {
     else {
       $media_fields = [
         'field_media_file',
-	'field_media_document',
-	'field_media_image',
-	'field_media_audio_file',
-	'field_media_video_file',
+        'field_media_document',
+        'field_media_image',
+        'field_media_audio_file',
+        'field_media_video_file',
       ];
     }
     $media = Media::load($mid);
@@ -112,10 +112,10 @@ class IslandoraRiprapUtils {
     else {
       $media_fields = [
         'field_media_file',
-	'field_media_document',
-	'field_media_image',
-	'field_media_audio_file',
-	'field_media_video_file',
+        'field_media_document',
+        'field_media_image',
+        'field_media_audio_file',
+        'field_media_video_file',
       ];
     }
     $media = Media::load($mid);
